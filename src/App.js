@@ -10,7 +10,7 @@ function App() {
   const card_colors = ['#9195F6', '#5C8374', '#FF9843', '#D24545', '#85586F' ];
   const [cards, setCards] = useState([]);
   const [winner, setWinner] = useState('');
-  const [color, setColor] = useState([]);
+  const [color, setColor] = useState(0);
   
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -49,6 +49,7 @@ function App() {
           txt: let_colors[color],
         };
         setCards((prevCards) => [...prevCards, newCard]);
+        console.log(color);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
