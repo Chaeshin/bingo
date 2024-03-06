@@ -84,7 +84,7 @@ function App() {
         <button className="btnNewCard" onClick={() => handleNewCard()}>New Card</button>
         <button className="btnClearCard" onClick={() => handleClearCard()}>Clear Cards</button>
         <button className="btnNewPlayer" onClick={() => window.open('http://localhost:3000', '_blank')}>New Player</button>
-        <button className="btnNavigate" onClick={() => window.location.href = 'http://www.hyeumine.com/bingodashboard.php?bcode=1TTuguCu'}>Go to Bingo Dashboard</button>
+        <button className="btnNavigate" onClick={() => window.location.href = 'http://www.hyeumine.com/bingodashboard.php?bcode=8NRcsvwI'}>Go to Bingo Dashboard</button>
       </div>
     </div>
   );
